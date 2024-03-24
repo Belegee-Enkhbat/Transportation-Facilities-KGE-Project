@@ -12,7 +12,7 @@ Managing Schedules: Facility managers use the KG to create and manage schedules 
 Improving Accessibility: Transportation planners and facility managers use the KG to identify areas where accessibility can be improved, such as adding ramps or elevators for people with disabilities.
 
 
-Competency Question Definition - Example questions could include:
+Competency Question Definition :
 
 What are the busiest times at a particular transportation facility?
 How can we optimize the scheduling of transportation services?
