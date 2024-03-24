@@ -1,6 +1,6 @@
 Personas & Scenarios Definition:
 
-Personas: Transportation planners, Logistics Operators:, passengers.
+Personas: Transportation planners, Logistics Operators, Passengers.
 
 Facility Managers who look after places like airports and train stations. They use the KG to keep track of things like repairs and safety rules.
 
@@ -8,7 +8,7 @@ Transportation Planners who plan and improve transportation systems, like bus ro
 
 Logistics operators who manage how things are moved from one place to another, like delivering packages or goods to stores. They use the KG to make sure things are delivered efficiently.
 
-Travelers who like you and me who use the KG to find the best way to get from one place to another, like by bus or train
+Passengers who like you and me who use the KG to find the best way to get from one place to another, like by bus or train
 
 
 Scenarios:
@@ -25,7 +25,7 @@ Helping in Emergencies: When there's an emergency, like a fire or someone gettin
 
 Competency Question Definition :
 
-Traveler Information:
+Passengers Information:
 
 "What is the fastest way for a traveler to get from location A to location B using public transportation?"
 "What are the upcoming departure times for buses at bus stop X?"
