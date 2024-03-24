@@ -3,7 +3,15 @@
 <head>
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        fetch('./Phase 1 - Purpose Formalization/info.md')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('includedText').innerText = data;
+          });
+        </script>
 </head>
+
 <style>
     body {
     font-family: Arial, sans-serif;
@@ -73,19 +81,9 @@ footer {
     
     <main>
         <section>
-            <h2>Featured Products</h2>
-            <div class="product">
-                <img src="product1.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p>Description of Product 1</p>
-            </div>
-            <div class="product">
-                <img src="product2.jpg" alt="Product 2">
-                <h3>Product 2</h3>
-                <p>Description of Product 2</p>
-            </div>
-        </section>
-        
+        <h2>Purpose</h2>
+        <pre id="includedText"></pre>
+         </section>
         <section>
             <h2>Latest News</h2>
             <article>
