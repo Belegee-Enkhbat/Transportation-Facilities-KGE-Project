@@ -1,4 +1,4 @@
-Traffic Engineer:
+<!-- Traffic Engineer:
 
 Role: Designs traffic flow systems and implements traffic control measures to improve transportation efficiency and safety.
 Scenario: Traffic Engineer needs to analyze traffic patterns around a busy intersection to reduce congestion during peak hours.
@@ -16,4 +16,4 @@ Scenario: Urban Planner is planning a new light rail system to connect different
 Tourism Director:
 Role: Promotes tourism by highlighting transportation options and attractions within a region.
 Scenario: Tourism Director is creating a brochure that showcases the ease of travel to various tourist destinations using public transportation
-
+ -->
