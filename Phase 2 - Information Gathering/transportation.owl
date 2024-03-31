@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://knowdive.disi.unitn.it/etype#"
+     xml:base="http://knowdive.disi.unitn.it/etype"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://knowdive.disi.unitn.it/etype#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#locates -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#locates">
+        <rdfs:comment>Bus stop locates at Position</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#serves -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#serves">
+        <rdfs:comment>Bus stop serves bus trips</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#address -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#address">
+        <rdfs:comment>The string representing the address of the bus stop.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#bus_stop_id -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#bus_stop_id">
+        <rdfs:comment>identifier of bus stop</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#bus_trip_id -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#bus_trip_id">
+        <rdfs:comment>identifier of bus trip</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#direction -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#direction">
+        <rdfs:comment>The direction of bus trip.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#distance -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#distance">
+        <rdfs:comment>Distance of bus trip in kilometer.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
+        <rdfs:range rdf:resource="&xsd;unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#end_point -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#end_point">
+        <rdfs:comment>The bus stop at the end of the bus trip</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
+        <rdfs:range rdf:resource="&xsd;anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#latitude">
+        <rdfs:comment>Latitude of specific position</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#longitude">
+        <rdfs:comment>Longitude of specific position</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#name -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#name">
+        <rdfs:comment>The name of bus stop.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#operating_hours -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#operating_hours">
+        <rdfs:comment>Operating time of bus trip</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#position_id -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#position_id">
+        <rdfs:comment>Identifier of position</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#served_trips -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#served_trips">
+        <rdfs:comment>The trips that the specific bus stop serves.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
+        <rdfs:range rdf:resource="&xsd;anyURI"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#start_point -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#start_point">
+        <rdfs:comment>The starting bus stop of bus trip.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
+        <rdfs:range rdf:resource="&xsd;anyURI"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Bus_Stop -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Bus_Stop">
+        <rdfs:comment>Bus stop in Ulaanbaatar</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Bus_Trip -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Bus_Trip">
+        <rdfs:comment>Trip of buses in Ulaanbaatar city</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Position -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Position">
+        <rdfs:comment>Latitude and longitude of facilities</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
