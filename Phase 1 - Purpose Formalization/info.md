@@ -1,5 +1,4 @@
-Purpose statement: To create a reusable knowledge graph that represents bus routes by connecting bus stops.
-- Neg hun neg gazraas nuguu gazr luu hamgiin hurdan bus aar ywah
+Purpose statement: To create a reusable knowledge graph that represents bus routes by connecting bus stops or taxi stops.
 
 Scenarios:
 1. Planning Bus Routes: Someone who plans bus routes uses the knowledge graph to decide where buses should go, based on where people live and where they need to go.
@@ -29,6 +28,18 @@ Personas: Transportation planners, Logistics Operators, Passengers.
 
 4.Passengers who like you and me who use the KG to find the best way to get from one place to another, like by bus or train
 
+
+Scenarios:
+
+1.Planning Bus Routes: Someone who plans bus routes uses the knowledge graph to decide where buses should go, based on where people live and where they need to go.
+
+2.Making Traffic Better: People in charge of traffic use the knowledge graph to see where there are problems, like accidents or too many cars, and then they change traffic lights or suggest new routes to make traffic flow more smoothly.
+
+3.Running Airports: People who run airports use the knowledge graph to schedule when planes arrive and leave, when to clean the airport, and how to keep everything running on time.
+
+4.Delivering Packages Efficiently: People who deliver packages use the knowledge graph to find the fastest way to get packages to their destinations, so they can deliver more packages in less time.
+
+5.Helping in Emergencies: When there's an emergency, like a fire or someone getting hurt, emergency workers use the knowledge graph to find the closest hospitals, police stations, or fire stations to help quickly.
 
 Competency Question Definition :
 
