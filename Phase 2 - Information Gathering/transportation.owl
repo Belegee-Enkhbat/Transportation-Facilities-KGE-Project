@@ -62,99 +62,46 @@
     
 
 
-<<<<<<< HEAD
     <!-- http://knowdive.disi.unitn.it/etype#has_address -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_address">
         <rdfs:comment>The string representing the address of the located bus stop.</rdfs:comment>
-=======
-    <!-- http://knowdive.disi.unitn.it/etype#address -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#address">
-        <rdfs:comment>The string representing the address of the bus stop.</rdfs:comment>
->>>>>>> 170f98177d6982c59886056f55e1e0ea4fa4e1eb
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
     <!-- http://knowdive.disi.unitn.it/etype#has_direction -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_direction">
         <rdfs:comment>The direction of the bus trip.</rdfs:comment>
-=======
-    <!-- http://knowdive.disi.unitn.it/etype#bus_stop_id -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#bus_stop_id">
-        <rdfs:comment>identifier of bus stop</rdfs:comment>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
-        <rdfs:range rdf:resource="&xsd;int"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#bus_trip_id -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#bus_trip_id">
-        <rdfs:comment>identifier of bus trip</rdfs:comment>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
-        <rdfs:range rdf:resource="&xsd;int"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#direction -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#direction">
-        <rdfs:comment>The direction of bus trip.</rdfs:comment>
->>>>>>> 170f98177d6982c59886056f55e1e0ea4fa4e1eb
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
         <rdfs:range rdf:resource="&xsd;boolean"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
     <!-- http://knowdive.disi.unitn.it/etype#has_distance -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_distance">
         <rdfs:comment>Distance of bus trip in kilometer</rdfs:comment>
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
         <rdfs:range rdf:resource="&xsd;unsignedByte"/>
-=======
-    <!-- http://knowdive.disi.unitn.it/etype#distance -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#distance">
-        <rdfs:comment>Distance of bus trip in kilometer.</rdfs:comment>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
-        <rdfs:range rdf:resource="&xsd;unsignedInt"/>
->>>>>>> 170f98177d6982c59886056f55e1e0ea4fa4e1eb
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
     <!-- http://knowdive.disi.unitn.it/etype#has_end_point -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_end_point">
         <rdfs:comment>The bus stop id at the end of the bus trip</rdfs:comment>
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
         <rdfs:range rdf:resource="&xsd;int"/>
-=======
-    <!-- http://knowdive.disi.unitn.it/etype#end_point -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#end_point">
-        <rdfs:comment>The bus stop at the end of the bus trip</rdfs:comment>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
-        <rdfs:range rdf:resource="&xsd;anyURI"/>
->>>>>>> 170f98177d6982c59886056f55e1e0ea4fa4e1eb
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
     <!-- http://knowdive.disi.unitn.it/etype#has_id -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_id">
@@ -163,38 +110,20 @@
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
         <rdfs:range rdf:resource="&xsd;int"/>
-=======
-    <!-- http://knowdive.disi.unitn.it/etype#latitude -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#latitude">
-        <rdfs:comment>Latitude of specific position</rdfs:comment>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
-        <rdfs:range rdf:resource="&xsd;decimal"/>
->>>>>>> 170f98177d6982c59886056f55e1e0ea4fa4e1eb
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
     <!-- http://knowdive.disi.unitn.it/etype#has_latitude -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_latitude">
         <rdfs:comment>The latitude of the position.</rdfs:comment>
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
         <rdfs:range rdf:resource="&xsd;int"/>
-=======
-    <!-- http://knowdive.disi.unitn.it/etype#longitude -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#longitude">
-        <rdfs:comment>Longitude of specific position</rdfs:comment>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
-        <rdfs:range rdf:resource="&xsd;decimal"/>
->>>>>>> 170f98177d6982c59886056f55e1e0ea4fa4e1eb
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
     <!-- http://knowdive.disi.unitn.it/etype#has_longitude -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_longitude">
@@ -209,82 +138,38 @@
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_name">
         <rdfs:comment>The name of the bus stop.</rdfs:comment>
-=======
-    <!-- http://knowdive.disi.unitn.it/etype#name -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#name">
-        <rdfs:comment>The name of bus stop.</rdfs:comment>
->>>>>>> 170f98177d6982c59886056f55e1e0ea4fa4e1eb
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
     <!-- http://knowdive.disi.unitn.it/etype#has_operating_hours -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_operating_hours">
         <rdfs:comment>The operating hours of the bus trip.</rdfs:comment>
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
         <rdfs:range rdf:resource="&xsd;dateTimeStamp"/>
-=======
-    <!-- http://knowdive.disi.unitn.it/etype#operating_hours -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#operating_hours">
-        <rdfs:comment>Operating time of bus trip</rdfs:comment>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
-        <rdfs:range rdf:resource="&xsd;dateTime"/>
->>>>>>> 170f98177d6982c59886056f55e1e0ea4fa4e1eb
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
     <!-- http://knowdive.disi.unitn.it/etype#has_start_point -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_start_point">
         <rdfs:comment>The bus stop id at the beginning of the bus trip.</rdfs:comment>
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
-=======
-    <!-- http://knowdive.disi.unitn.it/etype#position_id -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#position_id">
-        <rdfs:comment>Identifier of position</rdfs:comment>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
->>>>>>> 170f98177d6982c59886056f55e1e0ea4fa4e1eb
         <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
     <!-- http://knowdive.disi.unitn.it/etype#has_trips -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_trips">
         <rdfs:comment>The trips served by the bus stop.</rdfs:comment>
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
         <rdfs:range rdf:resource="&xsd;anyURI"/>
-=======
-    <!-- http://knowdive.disi.unitn.it/etype#served_trips -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#served_trips">
-        <rdfs:comment>The trips that the specific bus stop serves.</rdfs:comment>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Stop"/>
-        <rdfs:range rdf:resource="&xsd;anyURI"/>
-        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#start_point -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#start_point">
-        <rdfs:comment>The starting bus stop of bus trip.</rdfs:comment>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Bus_Trip"/>
-        <rdfs:range rdf:resource="&xsd;anyURI"/>
-        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
->>>>>>> 170f98177d6982c59886056f55e1e0ea4fa4e1eb
     </owl:DatatypeProperty>
     
 
