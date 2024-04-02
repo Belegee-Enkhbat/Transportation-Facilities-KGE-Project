@@ -1,4 +1,4 @@
-Purpose statement: To create a reusable knowledge graph that represents bus routes by connecting bus stops or taxi stops.
+Purpose statement: To create a reusable knowledge graph that represents bus routes by connecting bus stops.
 
 Scenarios:
 1. Planning Bus Routes: Someone who plans bus routes uses the knowledge graph to decide where buses should go, based on where people live and where they need to go.
