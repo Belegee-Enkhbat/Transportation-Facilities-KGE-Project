@@ -1,4 +1,10 @@
-Purpose statement: To create a reusable knowledge graph that represents bus routes by connecting bus stops.
+Purpose statement:
+To create a reusable knowledge graph that accurately represents the network of bus routes in 
+Ulaanbaatar city. This involves connecting various bus stops throughout the city to establish a 
+visualization of the public transportation system. By connecting these routes and stops, the 
+knowledge graph will serve as a valuable resource for urban planners, public transportation 
+planners for decision making, optimizing routes, and enhancing overall efficiency and accessibility 
+within Ulaanbaatar’s transportation system.
 
 Scenarios:
 1. Planning Bus Routes: Someone who plans bus routes uses the knowledge graph to decide where buses should go, based on where people live and where they need to go.
