@@ -21,19 +21,42 @@ Scenarios:
 4. An accessibility advocate wants to assess the overall accessibility of Ulaanbaatar's public transportation
    system for individuals with disabilities. They use the knowledge graph to identify wheelchair-accessible
    routes and stops, as well as areas where accessibility improvements are needed.
-5. A commuter working late hours needs to catch a bus home before the service ends at 10 PM on weekdays.
+5. A commuter working late hours needs to catch a bus home before the service ends on weekdays.
    They rely on the knowledge graph to plan their route and departure time, ensuring they can reach their
    destination before the last bus of the night.
-6. A group of friends planning a weekend outing must catch a bus before 9 PM when the service stops on weekends.
+6. A group of friends planning a weekend outing must catch a bus before the service ends on weekends.
    Using the knowledge graph, they coordinate their itinerary to ensure they can return home via public
    transportation within the operating hours.
 
 Personas:
-1. Bayaraa is a transportation planner in Ulaanbaatar.
-2. Tsetseg is a 21-year-old student living in Sansar. She goes to NUM mostly every day.
-3. Bold is a 62-year-old living in Nalaikh district. He sometimes goes to Ulaanbaatar city center to meet his children
+1. Bayaraa is an urban planner working for the municipal government of Ulaanbaatar.
+   He is tasked with optimizing bus routes in a specific district to improve efficiency.
+2. John is a tourist visiting Ulaanbaatar to explore its cultural landmarks and attractions.
+   John prefers using public transportation to immerse themselves in the local experience.
+3. Tsetseg is a regular commuter who relies on public transportation to travel from her home
+   to work and back. She has a busy schedule and needs to plan her daily bus route
+   efficiently to minimize commute time.
+4. Bold is an accessibility advocate who is passionate about promoting inclusive transportation
+   options for individuals with disabilities. He advocates for improvements to Ulaanbaatar's
+   public transportation system to ensure accessibility for all residents.
+5. Khuyagaa is a late-night commuter who works unconventional hours and relies on public
+   transportation to commute home after finishing work late at night. He needs to catch a
+   bus before the service ends on weekdays.
+6. Bat and his group of friends enjoy exploring different parts of Ulaanbaatar together on weekends.
+   They prefer using public transportation for its convenience and affordability. However, they need
+   to coordinate their itinerary to ensure they can catch a bus before the service ends on weekends. 
 
 Competency Questions:
-1. Bayaraa optimizes a bus route for efficiency and effectiveness.
-2. Tsetseg was at her grandparents' house on the weekend. She goes to the university from Yarmag.
-3. Bold comes to visit his son who lives in Zaisan.
+1. How can the knowledge graph assist in identifying areas within a specific district of Ulaanbaatar with
+   high passenger demand?
+2. Does the knowledge graph provide accurate information on bus routes and schedules relevant to John's
+   exploration of Ulaanbaatar?
+3. Can Tsetseg easily access information on the most convenient bus stops and departure times for her morning
+   and evening commute?
+4. What features does the knowledge graph offer to identify wheelchair-accessible routes and stops within
+   Ulaanbaatar's public transportation system?
+5. Can Khuyagaa easily find information within the knowledge graph about bus routes and departure times
+   before the service ends on weekdays?
+6. Can Khuygaa determine whether he can reach home before the bus service stops?
+7. How can the knowledge graph assist in coordinating itineraries for groups like Bat and his friends to
+   catch buses before the service ends on weekends?
