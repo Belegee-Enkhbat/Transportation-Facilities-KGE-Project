@@ -29,7 +29,7 @@ Scenarios:
    transportation within the operating hours.
 
 Personas:
-1. Bayaraa is an urban planner working for the municipal government of Ulaanbaatar.
+1. Bayaraa is an urban planner working for the transportation company of Ulaanbaatar.
    He is tasked with optimizing bus routes in a specific district to improve efficiency.
 2. John is a tourist visiting Ulaanbaatar to explore its cultural landmarks and attractions.
    John prefers using public transportation to immerse themselves in the local experience.
