@@ -6,10 +6,27 @@ knowledge graph will serve as a valuable resource for urban planners, public tra
 planners for decision making, optimizing routes, and enhancing overall efficiency and accessibility 
 within Ulaanbaatar’s transportation system.
 
+Domain of Interest:
+Current(2024) bus transportation system of Ulaanbaatar city.
+
 Scenarios:
-1. Planning Bus Routes: Someone who plans bus routes uses the knowledge graph to decide where buses should go, based on where people live and where they need to go.
-2. From Sansar to the NUM by bus.
-3. From Nalaikh to the city center by bus.
+1. An urban planner needs to optimize bus routes in a specific district of Ulaanbaatar to improve efficiency.
+   They use the knowledge graph to analyze current route data, identify areas with high passenger demand, and
+   propose adjustments to the bus network accordingly.
+2. A tourist visiting Ulaanbaatar explores the city using public transportation. They use the knowledge graph
+   to plan a route from their hotel to major tourist attractions.
+3. A commuter who regularly catches bus from their home to work needs to plan their daily bus route. They use
+   the knowledge graph to find the most convenient bus stops and departure times for their morning and evening
+   commute.
+4. An accessibility advocate wants to assess the overall accessibility of Ulaanbaatar's public transportation
+   system for individuals with disabilities. They use the knowledge graph to identify wheelchair-accessible
+   routes and stops, as well as areas where accessibility improvements are needed.
+5. A commuter working late hours needs to catch a bus home before the service ends at 10 PM on weekdays.
+   They rely on the knowledge graph to plan their route and departure time, ensuring they can reach their
+   destination before the last bus of the night.
+6. A group of friends planning a weekend outing must catch a bus before 9 PM when the service stops on weekends.
+   Using the knowledge graph, they coordinate their itinerary to ensure they can return home via public
+   transportation within the operating hours.
 
 Personas:
 1. Bayaraa is a transportation planner in Ulaanbaatar.
