@@ -1,76 +1,62 @@
-Purpose statement: To create a reusable knowledge graph that represents bus routes by connecting bus stops or taxi stops.
+Purpose statement:
+To create a reusable knowledge graph that accurately represents the network of bus routes in 
+Ulaanbaatar city. This involves connecting various bus stops throughout the city to establish a 
+visualization of the public transportation system. By connecting these routes and stops, the 
+knowledge graph will serve as a valuable resource for urban planners, public transportation 
+planners for decision making, optimizing routes, and enhancing overall efficiency and accessibility 
+within Ulaanbaatar’s transportation system.
+
+Domain of Interest:
+Current(2024) bus transportation system of Ulaanbaatar city.
 
 Scenarios:
-1. Planning Bus Routes: Someone who plans bus routes uses the knowledge graph to decide where buses should go, based on where people live and where they need to go.
-2. From Sansar to the NUM by bus.
-3. From Nalaikh to the city center by bus.
+1. An urban planner needs to optimize bus routes in a specific district of Ulaanbaatar to improve efficiency.
+   They use the knowledge graph to analyze current route data, identify areas with high passenger demand, and
+   propose adjustments to the bus network accordingly.
+2. A tourist visiting Ulaanbaatar explores the city using public transportation. They use the knowledge graph
+   to plan a route from their hotel to major tourist attractions.
+3. A commuter who regularly catches bus from their home to work needs to plan their daily bus route. They use
+   the knowledge graph to find the most convenient bus stops and departure times for their morning and evening
+   commute.
+4. An accessibility advocate wants to assess the overall accessibility of Ulaanbaatar's public transportation
+   system for individuals with disabilities. They use the knowledge graph to identify wheelchair-accessible
+   routes and stops, as well as areas where accessibility improvements are needed.
+5. A commuter working late hours needs to catch a bus home before the service ends on weekdays.
+   They rely on the knowledge graph to plan their route and departure time, ensuring they can reach their
+   destination before the last bus of the night.
+6. A group of friends planning a weekend outing must catch a bus before the service ends on weekends.
+   Using the knowledge graph, they coordinate their itinerary to ensure they can return home via public
+   transportation within the operating hours.
 
 Personas:
-1. Bayaraa is a transportation planner in Ulaanbaatar.
-2. Tsetseg is a 21-year-old student living in Sansar. She goes to NUM mostly every day.
-3. Bold is a 62-year-old living in Nalaikh district. He sometimes goes to Ulaanbaatar city center to meet his children
+1. Bayaraa is an urban planner working for the transportation company of Ulaanbaatar.
+   He is tasked with optimizing bus routes in a specific district to improve efficiency.
+2. John is a tourist visiting Ulaanbaatar to explore its cultural landmarks and attractions.
+   John prefers using public transportation to immerse themselves in the local experience.
+3. Tsetseg is a regular commuter who relies on public transportation to travel from her home
+   to work and back. She has a busy schedule and needs to plan her daily bus route
+   efficiently to minimize commute time.
+4. Bold is an accessibility advocate who is passionate about promoting inclusive transportation
+   options for individuals with disabilities. He advocates for improvements to Ulaanbaatar's
+   public transportation system to ensure accessibility for all residents.
+5. Khuyagaa is a late-night commuter who works unconventional hours and relies on public
+   transportation to commute home after finishing work late at night. He needs to catch a
+   bus before the service ends on weekdays.
+6. Bat and his group of friends enjoy exploring different parts of Ulaanbaatar together on weekends.
+   They prefer using public transportation for its convenience and affordability. However, they need
+   to coordinate their itinerary to ensure they can catch a bus before the service ends on weekends. 
 
 Competency Questions:
-1. Bayaraa optimizes a bus route for efficiency and effectiveness.
-2. Tsetseg was at her grandparents' house on the weekend. She goes to the university from Yarmag.
-3. Bold comes to visit his son who lives in Zaisan.
-
-
-Personas & Scenarios Definition:
-
-Personas: Transportation planners, Logistics Operators, Passengers.
-
-1.Facility Managers who look after places like airports and train stations. They use the KG to keep track of things like repairs and safety rules.
-
-2.Transportation Planners who plan and improve transportation systems, like bus routes and train schedules, to make them work better for everyone.
-
-3.Logistics operators who manage how things are moved from one place to another, like delivering packages or goods to stores. They use the KG to make sure things are delivered efficiently.
-
-4.Passengers who like you and me who use the KG to find the best way to get from one place to another, like by bus or train
-
-
-Scenarios:
-
-1.Planning Bus Routes: Someone who plans bus routes uses the knowledge graph to decide where buses should go, based on where people live and where they need to go.
-
-2.Making Traffic Better: People in charge of traffic use the knowledge graph to see where there are problems, like accidents or too many cars, and then they change traffic lights or suggest new routes to make traffic flow more smoothly.
-
-3.Running Airports: People who run airports use the knowledge graph to schedule when planes arrive and leave, when to clean the airport, and how to keep everything running on time.
-
-4.Delivering Packages Efficiently: People who deliver packages use the knowledge graph to find the fastest way to get packages to their destinations, so they can deliver more packages in less time.
-
-5.Helping in Emergencies: When there's an emergency, like a fire or someone getting hurt, emergency workers use the knowledge graph to find the closest hospitals, police stations, or fire stations to help quickly.
-
-Competency Question Definition :
-
-Passengers Information:
-
-1."What is the fastest way for a traveler to get from location A to location B using public transportation?"
-2."What are the upcoming departure times for buses at bus stop X?"
-3."Is there a train station within walking distance of my current location?"
-
-Transportation Planning:
-
-4."What are the busiest times for traffic on road W, and how can we alleviate congestion during those times?"
-5."How can we optimize bus routes in a city to reduce travel time for passengers?"
-
-Logistics Optimization:
-
-6."What is the most efficient route for a delivery truck to take to deliver packages to multiple locations?"
-
-Emergency Response:
-
-7."What hospitals are closest to an accident, and how fast can an ambulance get there?"
-"Is there a clear path for emergency vehicles to reach a specific location?"
-
-Provide comprehensive view of transportation facilities.
-Optimize operations.
-
-
-
-
-
-
-
-
- The purpose of the knowledge graph (KG) for transportation facilities is to provide a comprehensive view of transportation facilities, manage facilities effectively, analyze traffic patterns, and optimize operations to ensure efficient and seamless transportation services.
+1. How can the knowledge graph assist in identifying areas within a specific district of Ulaanbaatar with
+   high passenger demand?
+2. Does the knowledge graph provide accurate information on bus routes and schedules relevant to John's
+   exploration of Ulaanbaatar?
+3. Can Tsetseg easily access information on the most convenient bus stops and departure times for her morning
+   and evening commute?
+4. What features does the knowledge graph offer to identify wheelchair-accessible routes and stops within
+   Ulaanbaatar's public transportation system?
+5. Can Khuyagaa easily find information within the knowledge graph about bus routes and departure times
+   before the service ends on weekdays?
+6. Can Khuygaa determine whether he can reach home before the bus service stops?
+7. How can the knowledge graph assist in coordinating itineraries for groups like Bat and his friends to
+   catch buses before the service ends on weekends?
