@@ -1,0 +1,35 @@
+osm_id,osm_type,name,amenity,geom_type
+8662472576,nodes,Хүчит шонхор автобусны буудал,bus_station,POINT
+3811381424,nodes,Мөнгөн завьяа,bus_station,POINT
+5206639524,nodes,Зүүн аймгуудын авто вокзал,bus_station,POINT
+6586136785,nodes,Баянзүрх авто вокзал,bus_station,POINT
+682258997,nodes,Вокзал,bus_station,POINT
+8060715578,nodes,Дүнжингарав,bus_station,POINT
+1268520486,nodes,Микро автобус,bus_station,POINT
+3910450060,nodes,Зам гүүрийн авто базз,bus_station,POINT
+11251277309,nodes,Зорчигч Тээврийн Төв Bus Terminal,bus_station,POINT
+3894566063,nodes,Дүнжингарав зогсоол,bus_station,POINT
+5093488523,nodes,Зайсангийн автобусны эцсийн зогсоол,bus_station,POINT
+1400358994,nodes,Зайсан,bus_station,POINT
+2010678576,nodes,,bus_station,POINT
+2010678603,nodes,,bus_station,POINT
+281052182,nodes,,bus_station,POINT
+4656568289,nodes,Хүннү хороолол,bus_station,POINT
+2304796392,nodes,,bus_station,POINT
+2304796410,nodes,,bus_station,POINT
+4845834522,nodes,120 мянгат,bus_station,POINT
+1193607633,nodes,Төв цэнгэлдэх хүрээлэн,bus_station,POINT
+1239632938,nodes,ТЗЦ III,bus_station,POINT
+3901498601,nodes,Гэмтэлийн эмнэлэг,bus_station,POINT
+6897791817,nodes,Гэмтэл засал,bus_station,POINT
+6897814333,nodes,Дэнж,bus_station,POINT
+6469155585,nodes,Лавай авто буудал,bus_station,POINT
+6544044085,nodes,Лавай автобуудал,bus_station,POINT
+1706888044,nodes,,bus_station,POINT
+1254026977,nodes,,bus_station,POINT
+1254026911,nodes,,bus_station,POINT
+314067672,ways_poly,Ганц Худаг,bus_station,POLYGON
+246253141,ways_poly,Дундын буудал,bus_station,POLYGON
+684511894,ways_poly,u money,bus_station,POLYGON
+242436678,ways_poly,Модны 2,bus_station,POLYGON
+386766471,ways_poly,Модны 2,bus_station,POLYGON
