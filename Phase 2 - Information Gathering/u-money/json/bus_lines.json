@@ -1,0 +1,442 @@
+[
+  {
+    "id": "15000000",
+    "name": "ЗМ:1 (Lans Etses-Sky shopping center)"
+  },
+  {
+    "id": "15000001",
+    "name": "ЗМ:2 (Bayanhoshuu Etses-Sky shopping center)"
+  },
+  {
+    "id": "15000002",
+    "name": "ЗМ:3 (Zamt Delguur-Sky shopping center)"
+  },
+  {
+    "id": "15000003",
+    "name": "ЗМ:4 (Zuundelger Etses-Sky shopping center)"
+  },
+  {
+    "id": "11100801",
+    "name": "М:1 (5 Shar-Officer station)"
+  },
+  {
+    "id": "11100802",
+    "name": "М:2 (Zunjin trade center-Mongolian national university of education)"
+  },
+  {
+    "id": "11100806",
+    "name": "М:3 (General Office of Archives-)"
+  },
+  {
+    "id": "11100803",
+    "name": "М:4 (Shar khad final station-Tsambagarav)"
+  },
+  {
+    "id": "11100804",
+    "name": "М:5 (Botanik-10th section)"
+  },
+  {
+    "id": "11100805",
+    "name": "М:6 (3rd power plant-)"
+  },
+  {
+    "id": "11100815",
+    "name": "Х:1 (Baga bayan camp-7th station)"
+  },
+  {
+    "id": "11100829",
+    "name": "Х:10 (Shand khurgan-5 Shar)"
+  },
+  {
+    "id": "11100820",
+    "name": "Х:11 (Davaany zurlug-5 Shar)"
+  },
+  {
+    "id": "11100821",
+    "name": "Х:12 (Khonkhor final station-Officer station)"
+  },
+  {
+    "id": "11100822",
+    "name": "Х:13 (Mal bordokh-5 Shar)"
+  },
+  {
+    "id": "11100823",
+    "name": "Х:14 (Baruun turuu final station-5 Shar)"
+  },
+  {
+    "id": "11100824",
+    "name": "Х:15 (Jargalant partizan-5 Shar)"
+  },
+  {
+    "id": "11100876",
+    "name": "Х:16 (-Shine Nalaikh apartment)"
+  },
+  {
+    "id": "11100816",
+    "name": "Х:2 (Sharga morit final station-7th station)"
+  },
+  {
+    "id": "11100827",
+    "name": "Х:3 (Gorodok-10 shar bair)"
+  },
+  {
+    "id": "11100825",
+    "name": "Х:4 (Officer station-Shiljree)"
+  },
+  {
+    "id": "11100826",
+    "name": "Х:5 (10 shar bair-Officer station)"
+  },
+  {
+    "id": "11100817",
+    "name": "Х:6 (Turgenii gol final station-Yarmag 3rd station)"
+  },
+  {
+    "id": "11100818",
+    "name": "Х:7 (Tuul tosgon new final station-Yarmag 3rd station)"
+  },
+  {
+    "id": "11100828",
+    "name": "Х:8 (Nairamdal camp-5 Shar)"
+  },
+  {
+    "id": "11100819",
+    "name": "Х:9 (190th Kindergarten-Yarmag 3rd station)"
+  },
+  {
+    "id": "11100100",
+    "name": "Ч:10 (-3rd power plant)"
+  },
+  {
+    "id": "11100130",
+    "name": "Ч:13 (Takhilt final station-3rd hospital)"
+  },
+  {
+    "id": "11100150",
+    "name": "Ч:15 (Nisekh-5 Shar)"
+  },
+  {
+    "id": "11100160",
+    "name": "Ч:16 (Bumbatyn rashaan final station-10th section)"
+  },
+  {
+    "id": "11100163",
+    "name": "Ч:16А (Baruun salaa final station-5 Shar)"
+  },
+  {
+    "id": "11100171",
+    "name": "Ч:17А (Sansar gas station-Railway station)"
+  },
+  {
+    "id": "11100172",
+    "name": "Ч:17Б (Sansar gas station-Railway station)"
+  },
+  {
+    "id": "11100181",
+    "name": "Ч:18А (3rd power plant-Hospital for Injury and Trauma)"
+  },
+  {
+    "id": "11100182",
+    "name": "Ч:18Б (Mongolian National University-3rd power plant)"
+  },
+  {
+    "id": "11100191",
+    "name": "Ч:19А (Tsagaan davaany zadgai-Sansaryn uilchilgeenii tuv)"
+  },
+  {
+    "id": "11100192",
+    "name": "Ч:19Б (Tsagaan davaany zadgai-Sansaryn uilchilgeenii tuv)"
+  },
+  {
+    "id": "11100020",
+    "name": "Ч:2 (Shar khad final station-Final station of 3, 4th section)"
+  },
+  {
+    "id": "11100201",
+    "name": "Ч:20А (Bayankhoshuu-Flat 34)"
+  },
+  {
+    "id": "11100202",
+    "name": "Ч:20Б (Bayankhoshuu-Kharkhorin)"
+  },
+  {
+    "id": "11100211",
+    "name": "Ч:21А (Railway station-Autobus baaz)"
+  },
+  {
+    "id": "11100212",
+    "name": "Ч:21Б (Railway station-Autobus baaz)"
+  },
+  {
+    "id": "11100223",
+    "name": "Ч:22Өв (Shadivlan-Chingis-Soosei international relations school)"
+  },
+  {
+    "id": "11100230",
+    "name": "Ч:23 (Zurkh Uul /Chingeltei final station/-Ard cinema)"
+  },
+  {
+    "id": "11100241",
+    "name": "Ч:24А (Duukhee market-Zurkh Uul /Chingeltei final station/)"
+  },
+  {
+    "id": "11100240",
+    "name": "Ч:24Б (Nisekh-Mongolian National University)"
+  },
+  {
+    "id": "11100250",
+    "name": "Ч:25 (Toosgonii uildver final station-Duukhee market)"
+  },
+  {
+    "id": "11100260",
+    "name": "Ч:26 (Toosgonii uildver final station-Janjin club)"
+  },
+  {
+    "id": "11100270",
+    "name": "Ч:27 (Uvur sogoot-Railway station)"
+  },
+  {
+    "id": "11100280",
+    "name": "Ч:28 (Selkh-Ard cinema)"
+  },
+  {
+    "id": "14100118",
+    "name": "Ч:29А (Selbe camp-Urguu maternity hospital)"
+  },
+  {
+    "id": "14100135",
+    "name": "Ч:29Б (Sansar /Tunnel/-Railway station)"
+  },
+  {
+    "id": "11100310",
+    "name": "Ч:31 (Uliastai new final station-Zam guuriin avto baaz)"
+  },
+  {
+    "id": "14100121",
+    "name": "Ч:32Б (Officer station-3rd power plant)"
+  },
+  {
+    "id": "11100330",
+    "name": "Ч:33 (Shadivlan-Sansar gas station)"
+  },
+  {
+    "id": "11100340",
+    "name": "Ч:34 (Shar khad final station-3rd power plant)"
+  },
+  {
+    "id": "11100350",
+    "name": "Ч:35 (Tsagaan davaany zadgai-4th market)"
+  },
+  {
+    "id": "11100370",
+    "name": "Ч:37 (Ulaankhuaran final station-4th section)"
+  },
+  {
+    "id": "11100380",
+    "name": "Ч:38 (HMK-Khailaast new final station)"
+  },
+  {
+    "id": "11100390",
+    "name": "Ч:39 (Sansar /Tunnel/-Final station of 3, 4th section)"
+  },
+  {
+    "id": "11100040",
+    "name": "Ч:4 (5 Shar-Sansar gas station)"
+  },
+  {
+    "id": "11100400",
+    "name": "Ч:40 (Altan taria-Ulaankhuaran final station)"
+  },
+  {
+    "id": "11100410",
+    "name": "Ч:41 (Baruun salaa final station-Infectious Disease Hospital)"
+  },
+  {
+    "id": "11100420",
+    "name": "Ч:42 (Zaisan-Hyundai kia company mongolia)"
+  },
+  {
+    "id": "11100430",
+    "name": "Ч:43 (Bayankhoshuu-Ard cinema)"
+  },
+  {
+    "id": "11100440",
+    "name": "Ч:44 (Narangiin gol-Dunjingarav trade center)"
+  },
+  {
+    "id": "11100460",
+    "name": "Ч:46 (Ulaanchuluut-Railway station)"
+  },
+  {
+    "id": "11100480",
+    "name": "Ч:48 (Zuun salaa station-Mongolian national university of education)"
+  },
+  {
+    "id": "11100482",
+    "name": "Ч:48A (Zuun salaa station-Mongolian national university of education)"
+  },
+  {
+    "id": "11100490",
+    "name": "Ч:49 (Flat 34-Dunjingarav trade center)"
+  },
+  {
+    "id": "11100500",
+    "name": "Ч:50 (Ulaankhuaran final station-3rd power plant)"
+  },
+  {
+    "id": "11100510",
+    "name": "Ч:51 (Duukhee market-Dunjingarav trade center)"
+  },
+  {
+    "id": "11100520",
+    "name": "Ч:52 (Duukhee market-Zaisan)"
+  },
+  {
+    "id": "11100530",
+    "name": "Ч:53 (Yarmag final station-Mongolian national university of education)"
+  },
+  {
+    "id": "11100540",
+    "name": "Ч:54 (Yarmag final station-Bayankhoshuu)"
+  },
+  {
+    "id": "11100550",
+    "name": "Ч:55 (Autobus baaz-Zaisan)"
+  },
+  {
+    "id": "11100570",
+    "name": "Ч:57 (Ulaanchuluut-National university of mongolia)"
+  },
+  {
+    "id": "11100573",
+    "name": "Ч:57Б (Altan ovoo street 48-National university of mongolia)"
+  },
+  {
+    "id": "11100580",
+    "name": "Ч:58 (3rd power plant-Final station of 3, 4th section)"
+  },
+  {
+    "id": "11100060",
+    "name": "Ч:6 (65th market-10th section)"
+  },
+  {
+    "id": "11100612",
+    "name": "Ч:61 (3rd power plant-Officer station)"
+  },
+  {
+    "id": "11100620",
+    "name": "Ч:62 (Altan ovoo street 48-10th section)"
+  },
+  {
+    "id": "11100630",
+    "name": "Ч:63 (Khan hills-Mongolian national university of education)"
+  },
+  {
+    "id": "11100640",
+    "name": "Ч:64 (Tsagaan davaany zadgai-Infectious Disease Hospital)"
+  },
+  {
+    "id": "11100650",
+    "name": "Ч:65 (Zaisan-Officer station)"
+  },
+  {
+    "id": "11100660",
+    "name": "Ч:66 (Zaisan-11th section)"
+  },
+  {
+    "id": "11100670",
+    "name": "Ч:67 (Morin 3-Nisekh)"
+  },
+  {
+    "id": "11100680",
+    "name": "Ч:68 (General Office of Archives-Nisekh final station)"
+  },
+  {
+    "id": "14100129",
+    "name": "Ч:69Б (Hospital for Injury and Trauma-British school)"
+  },
+  {
+    "id": "11100070",
+    "name": "Ч:7 (Nisekh-Ard cinema)"
+  },
+  {
+    "id": "11100700",
+    "name": "Ч:70 (3rd power plant-Ard cinema)"
+  },
+  {
+    "id": "11100710",
+    "name": "Ч:71 (Mongolian national university of education-120 myangat)"
+  },
+  {
+    "id": "11100720",
+    "name": "Ч:72 (Music and Dance College of Mongolia-Bogdkhan camp)"
+  },
+  {
+    "id": "11100730",
+    "name": "Ч:73 (4th power plant-Zunjin trade center)"
+  },
+  {
+    "id": "11100740",
+    "name": "Ч:74 (Tsagaan davaany zadgai-Railway station)"
+  },
+  {
+    "id": "11100155",
+    "name": "Ч:75 (General Office of Archives-5 Shar)"
+  },
+  {
+    "id": "11100743",
+    "name": "Ч:76 (General Office of Archives-Final station of 3, 4th section)"
+  },
+  {
+    "id": "11100080",
+    "name": "Ч:8 (Khailaast new final station-Mongolian national university of education)"
+  },
+  {
+    "id": "11100090",
+    "name": "Ч:9 (Nisekh-4th market)"
+  },
+  {
+    "id": "11100840",
+    "name": "Ү:12 (-Flat 32)"
+  },
+  {
+    "id": "11100844",
+    "name": "Ү:18 (Gan Khiits company-Moto shooting sports center)"
+  },
+  {
+    "id": "11100845",
+    "name": "Ү:19 (Narangiin gol-5 Shar)"
+  },
+  {
+    "id": "11100846",
+    "name": "Ү:20 (Orbit new final station-5 Shar)"
+  },
+  {
+    "id": "11100848",
+    "name": "Ү:22 (5 Shar-Auto Trade Complex)"
+  },
+  {
+    "id": "11100849",
+    "name": "Ү:23 (Khujirbulan final station-Officer station)"
+  },
+  {
+    "id": "11100850",
+    "name": "Ү:24 (Urgakh naran final station-Officer station)"
+  },
+  {
+    "id": "11100851",
+    "name": "Ү:25 (Uliastai new final station-Officer station)"
+  },
+  {
+    "id": "11100853",
+    "name": "Ү:27 (Gachuurt final station-Officer station)"
+  },
+  {
+    "id": "11100856",
+    "name": "Ү:30 (Janjin club-)"
+  },
+  {
+    "id": "11100857",
+    "name": "Ү:31 (Zaisan-Tsambagarav)"
+  }
+]
