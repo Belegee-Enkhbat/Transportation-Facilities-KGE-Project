@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://knowdive.disi.unitn.it/etype#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://knowdive.disi.unitn.it/etype#">
+    <Prefix name="" IRI="http://knowdive.disi.unitn.it/etype#/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Passenger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Segment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Stop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Trip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="bus-line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="bus_passenger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="bus_segment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="bus_stop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="bus_stop_position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="bus_trip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="transportation_company"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="board_drop"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="composed_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="follows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="locates_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="operates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="travels"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_company_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_direction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_end_stop_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_end_time_at_end_point"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_end_time_at_start_point"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_latitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_line_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_longitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_phone_number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_sequence_number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_start_stop_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_start_time_at_end_point"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_start_time_at_start_point"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Company"/>
+        <Class IRI="Transportation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Line"/>
+        <Class IRI="Transportation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Passenger"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Position"/>
+        <Class IRI="Transportation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Segment"/>
+        <Class IRI="Transportation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Stop"/>
+        <Class IRI="Transportation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Trip"/>
+        <Class IRI="Transportation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="bus-line"/>
+        <Class IRI="Line"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="bus_passenger"/>
+        <Class IRI="Passenger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="bus_segment"/>
+        <Class IRI="Segment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="bus_stop"/>
+        <Class IRI="Stop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="bus_stop_position"/>
+        <Class IRI="Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="bus_trip"/>
+        <Class IRI="Trip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="transportation_company"/>
+        <Class IRI="Company"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="board_drop"/>
+        <Class IRI="bus_passenger"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="composed_of"/>
+        <Class IRI="bus_segment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="follows"/>
+        <Class IRI="bus-line"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="bus_trip"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="locates_at"/>
+        <Class IRI="bus_stop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="operates"/>
+        <Class IRI="transportation_company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="travels"/>
+        <Class IRI="bus_passenger"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="board_drop"/>
+        <Class IRI="bus_stop"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="composed_of"/>
+        <Class IRI="bus_stop"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="follows"/>
+        <Class IRI="bus_trip"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="bus_segment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="locates_at"/>
+        <Class IRI="bus_stop_position"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="operates"/>
+        <Class IRI="bus-line"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="travels"/>
+        <Class IRI="bus_trip"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_age"/>
+        <Class IRI="bus_passenger"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_company_id"/>
+        <Class IRI="bus-line"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_direction"/>
+        <Class IRI="bus_trip"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_end_stop_id"/>
+        <Class IRI="bus_segment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_end_time_at_end_point"/>
+        <Class IRI="bus_trip"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_end_time_at_start_point"/>
+        <Class IRI="bus_trip"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_gender"/>
+        <Class IRI="bus_passenger"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_id"/>
+        <Class IRI="bus-line"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_id"/>
+        <Class IRI="bus_passenger"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_id"/>
+        <Class IRI="bus_segment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_id"/>
+        <Class IRI="bus_stop"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_id"/>
+        <Class IRI="bus_stop_position"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_id"/>
+        <Class IRI="bus_trip"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_id"/>
+        <Class IRI="transportation_company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_latitude"/>
+        <Class IRI="bus_stop_position"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_line_id"/>
+        <Class IRI="bus_trip"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_longitude"/>
+        <Class IRI="bus_stop_position"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_name"/>
+        <Class IRI="bus-line"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_name"/>
+        <Class IRI="bus_passenger"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_name"/>
+        <Class IRI="bus_stop"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_name"/>
+        <Class IRI="transportation_company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_phone_number"/>
+        <Class IRI="bus_passenger"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_sequence_number"/>
+        <Class IRI="bus_segment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_start_stop_id"/>
+        <Class IRI="bus_segment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_start_time_at_end_point"/>
+        <Class IRI="bus_trip"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_start_time_at_start_point"/>
+        <Class IRI="bus_trip"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="has_age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_company_id"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_direction"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_end_stop_id"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_end_time_at_end_point"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_end_time_at_start_point"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_gender"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_id"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_latitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_line_id"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_longitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_phone_number"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_sequence_number"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_start_stop_id"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_start_time_at_end_point"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_start_time_at_start_point"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>bus-line</IRI>
+        <Literal>bus_line</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>bus_passenger</IRI>
+        <Literal>bus_passenger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>bus_segment</IRI>
+        <Literal>bus_segment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>bus_stop</IRI>
+        <Literal xml:lang="en">bus_stop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>bus_stop_position</IRI>
+        <Literal>bus_stop_position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>bus_trip</IRI>
+        <Literal xml:lang="en">bus_trip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>has_id</IRI>
+        <Literal xml:lang="en">has_id</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>transportation_company</IRI>
+        <Literal xml:lang="en">transportation_company</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
