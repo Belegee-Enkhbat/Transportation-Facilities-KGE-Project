@@ -13,6 +13,44 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/belgee/ontologies/2024/3/untitled-ontology-6#bus_company -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/belgee/ontologies/2024/3/untitled-ontology-6#bus_company"/>
+    
+
+
+    <!-- http://www.semanticweb.org/belgee/ontologies/2024/3/untitled-ontology-6#bus_trip -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/belgee/ontologies/2024/3/untitled-ontology-6#bus_trip"/>
+    
+
+
+    <!-- http://www.semanticweb.org/belgee/ontologies/2024/3/untitled-ontology-6#follows -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/belgee/ontologies/2024/3/untitled-ontology-6#follows"/>
+    
+
+
+    <!-- http://www.semanticweb.org/belgee/ontologies/2024/3/untitled-ontology-6#stops -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/belgee/ontologies/2024/3/untitled-ontology-6#stops">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/belgee/ontologies/2024/3/untitled-ontology-6#bus_line"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/belgee/ontologies/2024/3/untitled-ontology-6#bus_stop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
