@@ -1,4 +1,4 @@
-,line_id,direction,start_time_at_start_point,start_time_at_end_point,end_time_at_start_point,end_time_at_end_point,id
+id,line_id,direction,start_time_at_start_point,start_time_at_end_point,end_time_at_start_point,end_time_at_end_point,id
 0,15000000,start,18:50,19:05,18:50,19:05,0
 1,15000001,start,18:35,18:50,18:35,18:50,1
 2,15000002,start,18:50,19:10,18:50,19:10,2
