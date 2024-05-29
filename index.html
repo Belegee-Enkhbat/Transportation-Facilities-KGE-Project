@@ -3,40 +3,50 @@
 <head>
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
-         <script>
-        fetch('./Phase 1 - Purpose Formalization/info.md')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('includedText').innerText = data;
-          });
-        </script>
-        
+    <script>
+        function loadContent(url) {
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById('includedText').innerText = data;
+                })
+                .catch(error => {
+                    console.error('Error fetching the content:', error);
+                    document.getElementById('includedText').innerText = 'Error loading content.';
+                });
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Load default content
+            loadContent('./Phase 1 - Purpose Formalization/info.md');
+        });
+    </script>
 </head>
-
-
-
 <body>
     <header>
         <h1>Welcome to Transportation Facilities KGE</h1>
         <nav>
             <ul>
-                <li><a href="./Phase 1 - Purpose Formalization/info.md">Phase 1: Purpose Formulation</a></li>
-                <li><a href="./Phase 2 - Information Gathering/info.md">Phase 2: Information gathering111</a></li>
-                <li><a href="./Phase 3 - Language Definition/info.md">Phase 3: Language definition</a></li>
-                <li><a href="./Phase 4 - Knowledge Definition/info.md">Phase 4: Knowledge definition</a></li>
-                <li><a href="./Phase 5 - Data Definition/info.md">Phase 5: Data definition</a></li>
+                <li><a href="#" onclick="loadContent('./Phase 1 - Purpose Formalization/info.md'); return false;">Phase 1: Purpose Formulation</a></li>
+                <li><a href="#" onclick="loadContent('./Phase 2 - Information Gathering/info.md'); return false;">Phase 2: Information Gathering</a></li>
+                <li><a href="#" onclick="loadContent('./Phase 3 - Language Definition/info.md'); return false;">Phase 3: Language Definition</a></li>
+                <li><a href="#" onclick="loadContent('./Phase 4 - Knowledge Definition/info.md'); return false;">Phase 4: Knowledge Definition</a></li>
+                <li><a href="#" onclick="loadContent('./Phase 5 - Data Definition/info.md'); return false;">Phase 5: Data Definition</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
         <section>
-        <h2>Purpose</h2>
-        <pre id="includedText"></pre>
-        <img src="./Phase 1 - Purpose Formalization/transportation_facilities-Page-2.jpg" alt="transportation_facilities-Page-2">
-
+            <h2>Purpose</h2>
+            <pre id="includedText"></pre>
+            <img src="./Phase 1 - Purpose Formalization/transportation_facilities-Page-2.jpg" alt="transportation_facilities-Page-2">
         </section>
-        
     </main>
     
     <footer>
