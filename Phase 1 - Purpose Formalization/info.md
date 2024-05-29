@@ -1,3 +1,5 @@
+**Phase 1: Purpose Formalization**
+
 Purpose statement:
 To create a reusable knowledge graph that accurately represents the network of bus routes in 
 Ulaanbaatar city. This involves connecting various bus stops throughout the city to establish a 

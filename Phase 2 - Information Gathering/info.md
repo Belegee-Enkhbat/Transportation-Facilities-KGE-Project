@@ -1,4 +1,4 @@
-Phase 2: Information Gathering 
+__Phase 2: Information Gathering__ 
 
 
 Data Resources
