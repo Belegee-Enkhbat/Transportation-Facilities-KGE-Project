@@ -1,5 +1,3 @@
-**Phase 1: Purpose Formalization**
-
 Purpose statement:
 To create a reusable knowledge graph that accurately represents the network of bus routes in 
 Ulaanbaatar city. This involves connecting various bus stops throughout the city to establish a 
@@ -62,3 +60,5 @@ Competency Questions:
 6. Can Khuygaa determine whether he can reach home before the bus service stops?
 7. How can the knowledge graph assist in coordinating itineraries for groups like Bat and his friends to
    catch buses before the service ends on weekends?
+
+ERD diagram:

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+         <script>
+        fetch('./info.md')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('includedText').innerText = data;
+          });
+        </script>
+        
+</head>
+
+
+
+<body>
+    <header>
+        <h1>Welcome to Transportation Facilities KGE</h1>
+        <nav>
+            <ul>
+                <li><a href="../Phase 1 - Purpose Formalization/index.html">Phase 1: Purpose Formulation</a></li>
+                <li><a href="../Phase 2 - Information Gathering/index.html">Phase 2: Information gathering</a></li>
+                <li><a href="../Phase 3 - Language Definition/index.html">Phase 3: Language definition</a></li>
+                <li><a href="../Phase 4 - Knowledge Definition/index.html">Phase 4: Knowledge definition</a></li>
+                <li><a href="../Phase 5 - Data Definition/index.html">Phase 5: Data definition</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+        <h2>Phase 5 - Data Definition</h2>
+        <video width="640" height="360" controls>
+            <source src="./Documentation/graph-visualization.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <a href="https://github.com/belgeee/Transportation-Facilities-KGE-Project/blob/e1d605baf6879b109933dada559f995d3ad98607/Documentation/graph-visualization.webm">Click here to download and view graph video</a>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Our Company. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

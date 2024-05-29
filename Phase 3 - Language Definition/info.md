@@ -1,5 +1,3 @@
-__Phase 3 - Language Definition__
-
 In this directory you have store all the material considered and created for the language definition phase
 
 Entity Bus stop
@@ -13,8 +11,7 @@ Activity 1 - Concept Identification
   2.Bus trip
   3.Position
   4.Transportation company
-  5.Passenger
+  5.Passenge
 
 
-Activity 2 - Dataset Filtering
-//TODO: Do filtering after all data has been collected.
+Language resource:

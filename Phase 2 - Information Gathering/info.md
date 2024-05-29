@@ -1,6 +1,3 @@
-__Phase 2: Information Gathering__ 
-
-
 Data Resources
 
 1: Open street Map: Download data
